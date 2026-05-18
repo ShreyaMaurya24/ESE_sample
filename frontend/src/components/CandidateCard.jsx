@@ -12,7 +12,7 @@ function CandidateCard({ candidate }) {
     setLoading(true);
 
     const res = await axios.post(
-      "http://localhost:5000/api/interview",
+      "https://ai-hiring-backend-zuu1.onrender.com/api/interview",
       {
         skills: candidate.skills
       }

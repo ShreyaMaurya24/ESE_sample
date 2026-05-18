@@ -23,7 +23,7 @@ function JobForm() {
     e.preventDefault();
 
     const response = await axios.post(
-      "http://localhost:5000/api/match",
+      "https://ai-hiring-backend-zuu1.onrender.com/api/match",
       {
         requiredSkills:
           job.requiredSkills.split(","),

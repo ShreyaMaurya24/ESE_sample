@@ -27,7 +27,7 @@ function AddCandidate() {
     };
 
     await axios.post(
-      "http://localhost:5000/api/candidates",
+      "https://ai-hiring-backend-zuu1.onrender.com/api/candidates",
       newCandidate
     );
 

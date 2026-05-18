@@ -16,7 +16,7 @@ function Home() {
   const fetchCandidates = async () => {
 
     const res = await axios.get(
-      "http://localhost:5000/api/candidates"
+      "https://ai-hiring-backend-zuu1.onrender.com/api/candidates"
     );
 
     setCandidates(res.data);

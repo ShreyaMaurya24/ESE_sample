@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
 import AddCandidate from "./pages/AddCandidate";
-import JobForm from "./pages/JobForm";
+import JobForm from "./pages/Joform";
 import Shortlisted from "./pages/Shortlisted";
-import SavedCandidates from "./pages/SavedCandidates";
+import SavedCandidates from "./pages/savedCandidates";
 
 function App() {
   return (

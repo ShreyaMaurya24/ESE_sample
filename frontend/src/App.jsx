@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
 import AddCandidate from "./pages/AddCandidate";
-import JobForm from "./pages/Joform";
+import JobForm from "./pages/Jobform";
 import Shortlisted from "./pages/Shortlisted";
 import SavedCandidates from "./pages/savedCandidates";
 
